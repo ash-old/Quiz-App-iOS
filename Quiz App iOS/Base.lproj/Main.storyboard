@@ -51,13 +51,11 @@
                                         </connections>
                                     </button>
                                     <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progressViewStyle="bar" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="EaO-Ma-YTx">
-                                        <rect key="frame" x="0.0" y="816.5" width="399" height="2.5"/>
+                                        <rect key="frame" x="0.0" y="816.5" width="404" height="2.5"/>
                                     </progressView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="EaO-Ma-YTx" firstAttribute="top" secondItem="hNi-Dm-djZ" secondAttribute="bottom" constant="15" id="3yr-UB-F9w"/>
-                                    <constraint firstItem="EaO-Ma-YTx" firstAttribute="leading" secondItem="3SX-Sm-rkh" secondAttribute="leading" constant="5" id="8gx-88-uMg"/>
-                                    <constraint firstAttribute="trailing" secondItem="EaO-Ma-YTx" secondAttribute="trailing" constant="5" id="A5a-wc-x0d"/>
                                     <constraint firstItem="hNi-Dm-djZ" firstAttribute="centerX" secondItem="3SX-Sm-rkh" secondAttribute="centerX" id="JON-ub-Uao"/>
                                     <constraint firstItem="49O-cu-LCL" firstAttribute="leading" secondItem="3SX-Sm-rkh" secondAttribute="leading" id="SJL-a5-6YH"/>
                                     <constraint firstItem="49O-cu-LCL" firstAttribute="top" secondItem="3SX-Sm-rkh" secondAttribute="top" id="VJe-uy-tCf"/>
