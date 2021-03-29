@@ -65,6 +65,7 @@ class ViewController: UIViewController {
     
     func updateUI() {
         questionLabel.text = quiz[questionNumber].text
+        progressBar.progress = Float(questionNumber + 1) / Float(quiz.count)
     }
     
 }
