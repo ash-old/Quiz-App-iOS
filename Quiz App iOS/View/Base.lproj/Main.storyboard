@@ -15,17 +15,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="3SX-Sm-rkh">
-                                <rect key="frame" x="5" y="44" width="404" height="818"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="3SX-Sm-rkh">
+                                <rect key="frame" x="20" y="44" width="374" height="818"/>
                                 <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I2n-SS-ajn">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="71.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Question Text" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="49O-cu-LCL">
-                                        <rect key="frame" x="0.0" y="0.0" width="404" height="611.5"/>
+                                        <rect key="frame" x="0.0" y="81.5" width="374" height="536.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eOb-qg-XVg">
-                                        <rect key="frame" x="0.0" y="626.5" width="404" height="80"/>
+                                        <rect key="frame" x="0.0" y="628" width="374" height="80"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="80" id="Cb0-gw-3is"/>
                                         </constraints>
@@ -38,7 +44,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hNi-Dm-djZ">
-                                        <rect key="frame" x="0.0" y="721.5" width="404" height="80"/>
+                                        <rect key="frame" x="0.0" y="718" width="374" height="80"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="80" id="y2N-vb-q4y"/>
                                         </constraints>
@@ -51,35 +57,28 @@
                                         </connections>
                                     </button>
                                     <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progressViewStyle="bar" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="EaO-Ma-YTx">
-                                        <rect key="frame" x="0.0" y="816.5" width="404" height="2.5"/>
+                                        <rect key="frame" x="0.0" y="808" width="374" height="11"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="10" id="qUF-Uh-t0h"/>
+                                        </constraints>
                                     </progressView>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="EaO-Ma-YTx" firstAttribute="top" secondItem="hNi-Dm-djZ" secondAttribute="bottom" constant="15" id="3yr-UB-F9w"/>
-                                    <constraint firstItem="hNi-Dm-djZ" firstAttribute="centerX" secondItem="3SX-Sm-rkh" secondAttribute="centerX" id="JON-ub-Uao"/>
-                                    <constraint firstItem="49O-cu-LCL" firstAttribute="leading" secondItem="3SX-Sm-rkh" secondAttribute="leading" id="SJL-a5-6YH"/>
-                                    <constraint firstItem="49O-cu-LCL" firstAttribute="top" secondItem="3SX-Sm-rkh" secondAttribute="top" id="VJe-uy-tCf"/>
-                                    <constraint firstItem="eOb-qg-XVg" firstAttribute="centerX" secondItem="3SX-Sm-rkh" secondAttribute="centerX" id="Wjt-aK-G78"/>
-                                    <constraint firstItem="EaO-Ma-YTx" firstAttribute="centerX" secondItem="3SX-Sm-rkh" secondAttribute="centerX" id="knb-Nb-Bax"/>
-                                    <constraint firstItem="eOb-qg-XVg" firstAttribute="top" secondItem="49O-cu-LCL" secondAttribute="bottom" constant="15" id="teL-bl-1Bi"/>
-                                    <constraint firstAttribute="bottom" secondItem="EaO-Ma-YTx" secondAttribute="bottom" id="vHa-Qf-CKs"/>
-                                    <constraint firstAttribute="trailing" secondItem="49O-cu-LCL" secondAttribute="trailing" id="vy5-eN-nfm"/>
-                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.60385628223631183" green="0.39727072901476163" blue="0.71039551496505737" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="3SX-Sm-rkh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="5" id="7fJ-Ee-Del"/>
+                            <constraint firstItem="3SX-Sm-rkh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="7fJ-Ee-Del"/>
                             <constraint firstItem="3SX-Sm-rkh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="8xj-8r-Rzj"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3SX-Sm-rkh" secondAttribute="bottom" id="gxn-YV-uuP"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3SX-Sm-rkh" secondAttribute="trailing" constant="5" id="txi-9x-zrX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="3SX-Sm-rkh" secondAttribute="trailing" id="txi-9x-zrX"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="falseButton" destination="hNi-Dm-djZ" id="PH6-Kn-U28"/>
                         <outlet property="progressBar" destination="EaO-Ma-YTx" id="m3M-6X-pu9"/>
                         <outlet property="questionLabel" destination="49O-cu-LCL" id="AQZ-1d-6b8"/>
+                        <outlet property="scoreLabel" destination="I2n-SS-ajn" id="Msq-OP-9C4"/>
                         <outlet property="trueButton" destination="eOb-qg-XVg" id="aFZ-s6-jes"/>
                     </connections>
                 </viewController>
