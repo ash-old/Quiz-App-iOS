@@ -47,9 +47,7 @@ class ViewController: UIViewController {
     }
     
     func updateUI() {
-//        questionLabel.text = quiz[questionNumber].text
         questionLabel.text = quizBrain.getQuestionText()
-//        progressBar.progress = Float(questionNumber + 1) / Float(quiz.count)
         progressBar.progress = quizBrain.getProgress()
         scoreLabel.text = "Score: \(quizBrain.getScore())"
     }
