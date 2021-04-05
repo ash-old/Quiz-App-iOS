@@ -12,3 +12,9 @@ User can select True or False to a hard coded set of questions. App includes pro
 4. Paste link into window and click 'Clone'
 5. Navigate to where project is to be saved
 6. Once opened, Run project and play!
+
+### UI Design
+![](images/UIScreenshot.png)
+
+### Gameplay
+![](images/actualGameplay.png)
