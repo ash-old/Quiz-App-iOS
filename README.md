@@ -18,4 +18,4 @@ User feedback with answer - button turns green if correct and red if incorrect.
 ![](images/UIScreenshot.png)
 
 ### Gameplay
-![](images/actualGameplay.png)
+![](images/actualGameplay2.png)
