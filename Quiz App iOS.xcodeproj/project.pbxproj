@@ -16,7 +16,7 @@
 		5E95EBE22608DB5600288CA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E95EBE12608DB5600288CA2 /* Assets.xcassets */; };
 		5E95EBE52608DB5600288CA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E95EBE32608DB5600288CA2 /* LaunchScreen.storyboard */; };
 		5ECF6403261B94D900F0A080 /* UIScreenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ECF6401261B94D900F0A080 /* UIScreenshot.png */; };
-		5ECF640A261BA9EB00F0A080 /* actualGameplay.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ECF6409261BA9EB00F0A080 /* actualGameplay.png */; };
+		5ECF640F261BAAF700F0A080 /* actualGameplay.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ECF640E261BAAF700F0A080 /* actualGameplay.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +31,7 @@
 		5E95EBE42608DB5600288CA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E95EBE62608DB5600288CA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5ECF6401261B94D900F0A080 /* UIScreenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIScreenshot.png; sourceTree = "<group>"; };
-		5ECF6409261BA9EB00F0A080 /* actualGameplay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = actualGameplay.png; path = ../../../../actualGameplay.png; sourceTree = "<group>"; };
+		5ECF640E261BAAF700F0A080 /* actualGameplay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = actualGameplay.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +105,7 @@
 		5ECF63FF261B94C500F0A080 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				5ECF6409261BA9EB00F0A080 /* actualGameplay.png */,
+				5ECF640E261BAAF700F0A080 /* actualGameplay.png */,
 				5ECF6401261B94D900F0A080 /* UIScreenshot.png */,
 			);
 			path = images;
@@ -171,8 +171,8 @@
 				5ECF6403261B94D900F0A080 /* UIScreenshot.png in Resources */,
 				5E95EBE52608DB5600288CA2 /* LaunchScreen.storyboard in Resources */,
 				5E95EBE22608DB5600288CA2 /* Assets.xcassets in Resources */,
-				5ECF640A261BA9EB00F0A080 /* actualGameplay.png in Resources */,
 				5E95EBE02608DB5000288CA2 /* Main.storyboard in Resources */,
+				5ECF640F261BAAF700F0A080 /* actualGameplay.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
